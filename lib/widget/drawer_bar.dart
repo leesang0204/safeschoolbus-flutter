@@ -12,7 +12,7 @@ class DrawerBar extends StatelessWidget {
             children: <Widget>[
               DrawerHeader(
                 child: Text('Drawer Header'),
-                decoration: BoxDecoration(color: Colors.amber),
+                decoration: BoxDecoration(color: Colors.amberAccent),
               ),
               ListTile(
                   title: Text('Item 1'),
